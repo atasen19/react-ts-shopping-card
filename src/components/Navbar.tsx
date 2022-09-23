@@ -4,7 +4,7 @@ import {
   Nav,
   Navbar as NavbarBs,
   NavLink,
-} from "react-bootstrap";
+} from "react-bootstrap"
 
 export function Navbar() {
   return (
