@@ -1,4 +1,3 @@
-import { useState } from "react";
 import {
   Button,
   Container,
@@ -49,7 +48,9 @@ export function Navbar() {
               right: 0,
               transform: "translate(25%, 25%)",
             }}
-          >cartQuantity</div>
+          >
+            {cartQuantity}
+          </div>
         </Button>)}
       </Container>
     </NavbarBs>
